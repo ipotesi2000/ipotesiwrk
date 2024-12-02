@@ -11,7 +11,7 @@ def html2md(input_path, output_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Uso: python html2md.py <file_html> <file_md>")
+        print("html2md.py <file_html> <file_md>")
         sys.exit(1)
     input_path = sys.argv[1]
     output_path = sys.argv[2]

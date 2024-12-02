@@ -58,7 +58,7 @@ if __name__ == "__main__":
     dir_src = "./data/docx"
     dir_dst = "./data/html"
     if len(sys.argv) < 3:
-        print("\n\nread_prd.py <dir sorgente>  <dir destinazione>")
+        print("\n\ndir_docx2html.py <dir sorgente>  <dir destinazione>")
         exit()
     dir_src = sys.argv[1]
     dir_dst = sys.argv[2]

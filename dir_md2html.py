@@ -46,7 +46,7 @@ def dirmd2html(src_dir, dest_dir):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-     print("\n\nread_prd.py <dir sorgente>  <dir destinazione>")
+     print("\n\dir_md2html.py <dir sorgente>  <dir destinazione>")
      exit()
     dir_src = sys.argv[1]
     dir_dst = sys.argv[2]

@@ -11,7 +11,7 @@ def docx2html(input_path, output_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Uso: python docx2html.py <file_docx> <file_html>")
+        print("docx2html.py <file_docx> <file_html>")
         sys.exit(1)
     input_path = sys.argv[1]
     output_path = sys.argv[2]
